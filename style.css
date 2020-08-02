@@ -1,8 +1,3 @@
-
-  /* body{ */
-    /* background-color: rgb(199, 17, 17); */
-  /* } */
-
   body{
     background-color: rgb(182, 65, 218);
     
@@ -36,14 +31,24 @@
     height: 75px;
   }
 
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 600px) {
     /* The body's bg color will be #333 */
    body { 
       background-color: #333; 
      } 
   
     /* The wrapper's width will be 600px */
-    /* .wrapper { */
-      /* width: 600px; */
-  
+    .wrapper { 
+     width: 600px;  
     }
+
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+   }
