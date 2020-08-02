@@ -4,14 +4,14 @@
   /* } */
 
   body{
-    background-image: url("MyBackground.gif");
-    background-size: cover;  
-    /* background-color: #cccccc; */
-    height: 100vh;
-    padding:0;
-    margin:0;
+    background-color: rgb(182, 65, 218);
     
 }
+
+.navbar-custom { 
+  background-color: lightgreen; 
+} 
+
 
 .responsive {
   width: 100%;
@@ -30,17 +30,17 @@
     position: fixed;
     text-align: center;
     padding: 0px;
-    background-color: lightblue;
+    background-color: rgb(61, 36, 102);
     bottom:0;
     width: 100%; 
     height: 75px;
   }
 
-  /* @media screen and (max-width: 768px) { */
+   @media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
-    /* body { */
-      /* background-color: #333; */
-    /* } */
+   body { 
+      background-color: #333; 
+     } 
   
     /* The wrapper's width will be 600px */
     /* .wrapper { */
