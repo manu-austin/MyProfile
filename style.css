@@ -10,6 +10,12 @@
     height: 100vh;
     padding:0;
     margin:0;
+    
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .hr2{ 
